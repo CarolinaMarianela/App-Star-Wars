@@ -1,71 +1,36 @@
-# Getting Started with Create React App
+# Prueba técnica Vilma
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+He creado una aplicación, la cuál te permite filtrar peliculas de Star Wars, como así también tener la posibilidad de seleccionar una de las mismas y consultar su ficha técnica.
 
-## Available Scripts
+## Instalación en local
 
-In the project directory, you can run:
+> En primer lugar debemos clonar el repositorio a nuestra máquina local usando:
 
-### `npm start`
+https://github.com/CarolinaMarianela/prueba-vilma.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> Una vez clonado el código, debemos instalar todas las dependencias con el comando:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install
 
-### `npm test`
+> Una vez hecho instalados todos los paquetes ya se puede levantar la aplicación mediante:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm start
 
-### `npm run build`
+> Una vez hecho todo esto ya tendremos nuestra aplicación corriendo en https://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Descripción técnica
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-El proyecto ha sido creado con React.
+-He utilixado la API(https://swapi.dev/).
+-Para el CSS he utilizdo "Tailwind" como framework.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dificultades encontradas
 
-### `npm run eject`
+Como dificultad mayor, y la cuál no he podido concluir ha sido la paginación de las Cards,
+como así tampoco, no he podido conseguir cuando se elimina los datos del buscador se vuelvan a pintar todas las cards nuevamente, y por falta de tiempo hacerlo Movile.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Herramienta de Administracion
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+He utilizado como herramienta de trabajo "Trello" para ordenar las issues del proyecto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# prueba-vilma
+![Trello](./src/components/images/screanshot.png)
