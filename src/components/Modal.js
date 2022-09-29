@@ -5,7 +5,7 @@ const Modal = ({ selectedCard, onSetShowModal }) => {
 
   return (
     <div className="bg-slate-500/50 absolute w-full top-0 h-full flex items-center justify-center">
-      <div className="relative bg-white p-8 rounded w-2/4 h-3/4">
+      <div className="relative bg-white p-8 rounded w-full lg:w-2/4 h-3/4">
         <span
           className="absolute cursor-pointer right-4 top-2"
           onClick={() => onSetShowModal(false)}

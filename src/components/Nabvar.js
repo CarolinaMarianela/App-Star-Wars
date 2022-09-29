@@ -6,7 +6,7 @@ const Nabvar = ({ text, handleChange }) => {
         onChange={(event) => handleChange(event.target.value)}
         type="text"
         placeholder="Search movie"
-        className="shadow appearance-none border rounded w-1/4 py-2 px-6 text-gray-700"
+        className="shadow appearance-none border rounded w-11/12 lg:w-1/4 py-2 px-6 text-gray-700"
       />
     </div>
   );
