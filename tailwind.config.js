@@ -1,8 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/App.js'],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    fontFamily: {
+      display: ['Bungee Spice', 'cursive'],
+    },
+
+    extend: {
+      backgroundImage: {
+        starWarsImage: "url('/src/components/images/starWars.jpeg')",
+      },
+    },
   },
   plugins: [],
 };
