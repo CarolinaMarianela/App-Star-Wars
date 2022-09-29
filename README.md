@@ -10,11 +10,11 @@ https://github.com/CarolinaMarianela/prueba-vilma.git
 
 > Una vez clonado el código, debemos instalar todas las dependencias con el comando:
 
-npm install
+### npm install
 
 > Una vez hecho instalados todos los paquetes ya se puede levantar la aplicación mediante:
 
-npm start
+### npm start
 
 > Una vez hecho todo esto ya tendremos nuestra aplicación corriendo en https://localhost:3000.
 
