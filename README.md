@@ -33,6 +33,4 @@ como así tampoco, no he podido conseguir cuando se elimina los datos del buscad
 
 He utilizado como herramienta de trabajo "Trello" para ordenar las issues del proyecto.
 
-<!-- ![Trello](https://github.com/[CarolinaMarianela]/[prueba-vilma.git]/blob/[branch]/screanshot.jpg?raw=true) -->
-
-<img src="./src/components/images/screanshot.png" alt="drawing" width="200"/>
+<img src="./src/components/images/screanshot.png" alt="drawing" width="600"/>
